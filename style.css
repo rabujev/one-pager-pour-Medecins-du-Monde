@@ -1,0 +1,47 @@
+* {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 14pt;
+}
+.titre, .sous-titre, footer, .video, .image {
+  text-align: center;
+}
+#map {
+  padding-bottom: 20px;
+}
+.titre {
+  font-size: 40pt;
+}
+.sous-titre {
+  font-size: 30pt;
+}
+#first, #second {
+  color: white;
+  background-color: #CA9729;
+  /* Used adobe.color to have a coherent combination of colors (the result is still shit tho) */
+  text-align: center;
+  background-image: url("spacy-background.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  /* si le bg attach est en fixed, l'image disparait, à voir pourquoi */
+  /* I should use the shorthand property for the different background properties : background (see #third below)*/
+  margin-left: 20px
+  /* This moves stuff because it creates an invisible margin */
+}
+#first {
+  size: 20px;
+  /* Doesn't work lol, I'll keep reading the tutorial, should come up somewhere */
+  border: 3px solid #E13C36;
+  background-color: #CA9729;
+}
+#third {
+  background: #CA9729 right;
+  border-style: dashed;
+  border-width: 2px 4px;
+  border-color: #E13C36 #5F29D7 #5F29D7;
+  border-right: solid black;
+  /* the shorthand property is border: witdh style(req) color */
+  border-radius: 5px;
+  margin: 40px;
+}
